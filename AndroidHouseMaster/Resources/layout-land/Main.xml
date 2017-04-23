@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<!--android:orientation="horizontal" was RelativeLayout fill_parent -->
+
+  <!-- landscape layout -->
+  
+  <!-- client actions -->
+
+  <Button
+    android:id="@+id/_buttonConnect"
+    android:text="Connect"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+
+  <!-- client view -->
+
+  <TextView
+    android:id ="@+id/_txtKitchenDoor"
+    android:text="---"
+    android:textSize="20sp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+  <TextView
+    android:id="@+id/_txtGarageDoor"
+    android:text="---"
+    android:textSize="20sp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+  <TextView
+    android:id="@+id/_txtGarageLights"
+    android:text="---"
+    android:textSize="20sp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+  <TextView
+    android:id="@+id/_txtGarageBayA"
+    android:text="---"
+    android:textSize="20sp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+  <TextView
+    android:id="@+id/_txtGarageBayB"
+    android:text="---"
+    android:textSize="20sp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+  <TextView
+    android:id="@+id/_txtGarageTemp"
+    android:text="---"
+    android:textSize="20sp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+  <TextView
+    android:id="@+id/_txtFrontTemp"
+    android:text="---"
+    android:textSize="20sp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+  <TextView
+    android:id="@+id/_txtFrontHumidity"
+    android:text="---"
+    android:textSize="20sp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+  />
+  <TextView
+    android:id="@+id/_txtFrontHI"
+    android:text="---"
+    android:textSize="20sp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+
+  <Button
+    android:id="@+id/_btnRefresh"
+    android:text="Refresh"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+
+</LinearLayout>
